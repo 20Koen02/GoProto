@@ -29,12 +29,12 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
 ## Running
 First we run the server code:
 ```
-go run server/main.go
+go run server/server.go
 ```
 
 Now open a new terminal and start the client code:
 ```
-go run client/main.go
+go run client/client.go
 ```
 
 The server will have the following logs:
